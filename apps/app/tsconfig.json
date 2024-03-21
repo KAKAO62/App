@@ -1,0 +1,25 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "jsx": "preserve",
+    "jsxImportSource": "@emotion/react",
+    "baseUrl": ".",
+    "paths": {
+      "@/assets/*": ["assets/*"],
+      "@/components/*": ["components/*"],
+      "@/hooks/*": ["hooks/*"],
+      "@/lib/*": ["lib/*"],
+      "@/store/*": ["store/*"],
+      "@/config": ["config"]
+    },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "strictNullChecks": true
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules", "polkadot-types/**/*.ts"]
+}

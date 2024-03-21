@@ -1,0 +1,28 @@
+{
+  "name": "phala-apps",
+  "version": "0.0.1",
+  "private": true,
+  "homepage": "https://github.com/Phala-Network/apps#readme",
+  "bugs": {
+    "url": "https://github.com/Phala-Network/apps/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phala-Network/apps.git"
+  },
+  "license": "MIT",
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "build": "turbo run build",
+    "check": "turbo run check",
+    "preinstall": "lefthook install"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.6.1",
+    "@total-typescript/ts-reset": "^0.5.1",
+    "@types/node": "^20.11.28",
+    "lefthook": "^1.6.7",
+    "turbo": "^1.12.5",
+    "typescript": "^5.4.2"
+  }
+}

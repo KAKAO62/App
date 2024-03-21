@@ -1,0 +1,16 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "pipeline": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": [
+        "out/**",
+        ".next/**",
+        "build/**",
+        ".svelte-kit/**",
+        ".vercel/**"
+      ],
+      "env": ["NODE_ENV", "VERCEL_ENV"]
+    }
+  }
+}

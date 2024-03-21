@@ -1,0 +1,64 @@
+{
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "cSpell.words": [
+    "biomejs",
+    "bunx",
+    "crowdloan",
+    "fontawesome",
+    "fortawesome",
+    "karura",
+    "khala",
+    "moonbase",
+    "moonriver",
+    "movr",
+    "orml",
+    "parachain",
+    "phala",
+    "polkadot",
+    "readystate",
+    "roboto",
+    "staker",
+    "stakers",
+    "subbridge",
+    "Subscan",
+    "subsquid",
+    "svgs",
+    "sygma",
+    "talismn",
+    "tanstack",
+    "tokenomic",
+    "unsub",
+    "xtokens"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.addMissingImports": "explicit",
+    "quickfix.biome": "explicit",
+    "source.organizeImports.biome": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+  "typescript.tsdk": "./node_modules/typescript/lib"
+}
